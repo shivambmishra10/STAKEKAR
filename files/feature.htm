@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div style="width: 30%;float: left;">
+	<div class="container" style="background-color: aliceblue; width:100%;">
+		<div class="row">
+			<div class="block" style="background-color: lightskyblue; width: 20%rem; margin: auto; align-items: center; text-align: center; justify-content: center; border-radius: 1.875rem;margin-top: 1.5rem;">
+				<img src="blockcar.png" alt="car" width="150px" height="100px">
+				<h2 class="pick">Pickup : <?php echo $row['pickup'];?></h2>
+				<h2 class="drop">Dropoff : <?php echo $row['dropoff'];?></h2>
+				<h2 class="name">Owner Name : <?php echo $row['name'];?></h2>
+				<h2 class="cost">Capacity:<?php echo $row['capacity'];?></h2>
+				<h2 class="cost">Date :<?php echo $row['date'];?></h2>
+				<h2 class="cost">Time :<?php echo $row['time'];?></h2>
+				<h2 class="cost">Amount :<?php echo $row['cost'];?></h2>
+				<div>
+					<button type="button" id="button" class="button" styles="width: 150px;height: 49px;border: none;outline: none;border-radius: 48px;cursor: pointer;background-color: #20dbc2;color: #fff;text-transform: uppercase;font-weight: 600;margin: 10px 0;transition: all 0.5s;"onclick="document.location='hai.php' ">CHECK IT</button>
+				</div>
+				
+		</div>
+	</div>
+	<div class="container" style="background-color: aliceblue; margin-top: 2rem;">
+		<div class="row">
+			<div class="block" style="background-color: lightskyblue; width: 20%rem; margin: auto; align-items: center; text-align: center; justify-content: center; border-radius: 1.875rem;margin-top: 1.5rem;">
+				<img src="blockcar.png" alt="car" width="150px" height="100px">
+				<h2 class="pick">Pickup : <?php echo $row['pickup'];?></h2>
+				<h2 class="drop">Dropoff : <?php echo $row['dropoff'];?></h2>
+				<h2 class="name">Owner Name : <?php echo $row['name'];?></h2>
+				<h2 class="cost">Capacity:<?php echo $row['capacity'];?></h2>
+				<h2 class="cost">Date :<?php echo $row['date'];?></h2>
+				<h2 class="cost">Time :<?php echo $row['time'];?></h2>
+				<h2 class="cost">Amount :<?php echo $row['cost'];?></h2>
+				<div>
+					<button type="button" id="button" class="button" onclick="document.location='hai.php'">CHECK IT</button>
+				</div>
+				
+		</div>
+	</div>
+</div>
+</body>
+</html>
